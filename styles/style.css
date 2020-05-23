@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*começa a contar o tamanho a partir da borda interna*/
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    padding: 1em;
+    background-color: #000;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+nav img {
+    width: 45%;
+}
+
+section {
+    margin-top: 8em;
+    text-align: center;
+}
+
+section textarea {
+    width: 70vw;
+    height: 60vh;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5em;
+    width: 150px;
+    height: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100vw;
+    padding: 1em;
+    background-color: #000;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer a {
+    padding: 5%;
+    text-decoration: none;
+    transition: text-shadow 1s;
+}
+
+footer a:active,
+footer a:hover {
+    text-decoration: none;
+    text-shadow: 5px 5px 10px magenta;
+}
+
+footer .grid {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    justify-content: center;
+    align-items: center;
+}
+
+footer i {
+    color: #fff;
+    padding: .5em;
+    margin: .5em;
+}
+
+footer hr{ 
+    border: none;
+    border-left: 1px solid #fff;
+    height: 3em;
+    width: 2px;       
+}
+
+footer img {
+    width: 4%;
+}
