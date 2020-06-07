@@ -5,6 +5,7 @@
 * Botão para copiar o texto;
 * Botão para limpar as áreas de texto;
 
+
 ## Site
 
 Link: <a href='https://goncalves-ac.github.io/SemQuebraDeLinha/.'>Sem Quebra de Linha</a>
