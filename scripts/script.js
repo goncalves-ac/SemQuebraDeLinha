@@ -28,6 +28,7 @@ function fazerCopia() {
 
 function limparTela(){
   document.getElementById("texto").value='';
+  document.getElementById("palavra").value='';
   textoFinal.innerHTML = '';
 }
 
