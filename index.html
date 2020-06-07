@@ -17,21 +17,39 @@
         <img src="./imagens/título.png" alt="Texto em um único parágrafo...">
     </nav>
 
-    <section>
-        <textarea id='texto' placeholder="Coloque seu texto aqui."></textarea>
-        <br>
-        <button id='change'>Novo Texto</button>
+    <section class="txt-area">
+        <div class="grid-txts">
+            <textarea id='texto' placeholder="Coloque seu texto aqui."></textarea>
+        </div>
+        <div class="grid-botao">
+            <div>
+                <button id="change" onclick="quebraLinha()">Tirar quebra de linha</button>
+            </div>
+            <div class="selecionar">
+                <input type="radio" class="garantia" value="garantia"> Garantia <br> ou <br>
+                <input type="text" id="palavra"><br><br>
+                <button id='palavraSelecao' onclick="fazerSelecao()">Selecionar</button>
+            </div>
+            <div>
+                <button id='copiar' onclick="fazerCopia()">Copiar</button>
+            </div>
+            <div>
+                <button id='limpar' onclick="limparTela()">Limpar</button>
+            </div> 
+        </div>
+        <div class="grid-txts">
+            <div><h4>Texto Final</h4><br><div contenteditable="true" id="textoFinal" class="textoFinal"></div></div>
+        </div>
     </section>
 
     <footer>
         <div class="grid icon">
-            <img src="./imagens/acg.png" alt="ACG">
-            <hr>
-            <a href="https://www.facebook.com/anakrolg?ref=bookmarks" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/acg.acgoncalves/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/acg_goncalves" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/anacarolinagon%C3%A7alves/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/goncalves-ac" target="_blank"><i class="fab fa-github-alt"></i></a>
+            <img src="./imagens/acg.png" alt="ACG"><br>
+            <a href="https://www.facebook.com/anakrolg?ref=bookmarks" target="_blank"><i class="fab fa-facebook-f"></i></a><br>
+            <a href="https://www.instagram.com/acg.acgoncalves/" target="_blank"><i class="fab fa-instagram"></i></a><br>
+            <a href="https://twitter.com/acg_goncalves" target="_blank"><i class="fab fa-twitter"></i></a><br>
+            <a href="https://www.linkedin.com/in/anacarolinagon%C3%A7alves/" target="_blank"><i class="fab fa-linkedin-in"></i></a><br>
+            <a href="https://github.com/goncalves-ac" target="_blank"><i class="fab fa-github-alt"></i></a><br>
             <a href="https://api.whatsapp.com/send?phone=5531993822836" target="_blank"><i class="fab fa-whatsapp"></i></a>
         </div>
     </footer>
@@ -42,7 +60,3 @@
     <script src="./scripts/script.js"></script>
 </body>
 </html>
-
-
-
-
