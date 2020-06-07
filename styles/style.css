@@ -19,16 +19,60 @@ nav img {
     width: 45%;
 }
 
-section {
+.txt-area {
     margin-top: 8em;
     text-align: center;
 }
 
-section textarea {
-    width: 70vw;
-    height: 60vh;
+.txt-area textarea {
+    width: 80vw;
+    height: 55vh;
     border: 3px solid #000;
     border-radius: 5px;
+}
+
+.textoFinal {
+    width: 80vw;
+    height: 55vh;
+    border: 3px solid #000;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+div.textoFinal {
+    max-height: 70vw;
+    overflow: auto;
+}
+
+.grid-txts img {
+    width: 100%;
+}
+
+.grid-txts h4 {
+    font-family: cursive;
+}
+
+.grid-txts {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-botao {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em;
+}
+
+.grid-botao .selecionar {
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    padding-top: 0.5em;
 }
 
 button {
@@ -37,16 +81,18 @@ button {
     border-radius: 5em;
     width: 150px;
     height: 50px;
+    margin: 0.6em;
 }
 
 footer {
     position: fixed;
-    bottom: 0;
-    z-index: 1;
-    width: 100vw;
+    left: 0;
+    top: 40%;
+    text-align: center;
     padding: 1em;
     background-color: #000;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px 10px 10px 0px;
+    width: 8em;
 }
 
 footer a {
@@ -61,26 +107,12 @@ footer a:hover {
     text-shadow: 5px 5px 10px magenta;
 }
 
-footer .grid {
-    display: grid;
-    grid-template-columns: repeat(8, auto);
-    justify-content: center;
-    align-items: center;
-}
-
 footer i {
     color: #fff;
     padding: .5em;
     margin: .5em;
 }
 
-footer hr{ 
-    border: none;
-    border-left: 1px solid #fff;
-    height: 3em;
-    width: 2px;       
-}
-
 footer img {
-    width: 4%;
+    width: 50%;
 }
