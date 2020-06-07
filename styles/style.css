@@ -25,22 +25,21 @@ nav img {
 }
 
 .txt-area textarea {
-    width: 80vw;
+    width: 35vw;
     height: 55vh;
     border: 3px solid #000;
     border-radius: 5px;
 }
 
 .textoFinal {
-    width: 80vw;
-    height: 55vh;
+    width: 35vw;
+    height: 50vh;
     border: 3px solid #000;
-    margin-bottom: 2em;
     border-radius: 5px;
 }
 
 div.textoFinal {
-    max-height: 70vw;
+    max-height: 55vh;
     overflow: auto;
 }
 
@@ -54,7 +53,7 @@ div.textoFinal {
 
 .grid-txts {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto 5% auto;
     gap: 1em;
     justify-content: center;
     align-items: center;
